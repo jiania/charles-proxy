@@ -14,12 +14,19 @@ IPv6 is also all around you! If you’re lucky enough to have an IPv6 network an
 
 
 1.cd /Applications/Charles.app/Contents/Java/
-2.unzip charles.jar 
+
+2.unzip charles.jar
+
 3.dex class to java code  com/xk72/charles/License.class
-   see  com/xk72/charles/License.class
+
+   see  com/xk72/charles/License.java
+
 4.back to /Applications/Charles.app/Contents/Java/
-  runcomand 
+
+  runcomand:
+
   jar -uvf charles.jar com/xk72/charles/License.class 
+  
 
 notice:just only study
 
