@@ -1,0 +1,12 @@
+body {
+    background: #fff;
+    background-image: url(../img/charles_icon512.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 10px 10px;
+    
+    font: 76.5%/1.4em normal;
+    font-family: -apple-system, "Helvetica Neue", Helvetica, sans-serif;
+    margin-left: 230px;
+    margin-top: 20px;
+}

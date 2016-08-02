@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Charles Web Interface</title>
+    <link rel="stylesheet" href="../css/plain.css" />
+</head>
+<body>
+<h1>Charles Web Interface</h1>
+<h2>Throttling</h2>
+<p>Status: ${THROTTLING_STATUS}</p>
+<form method="get" action="activate">
+    Preset:
+    
+    <select name="preset">
+        <option value="">Current</option>
+        ${THROTTLING_PRESETS}
+    </select>
+    
+    <input type="submit" value="Activate" />
+</form>
+<form method="get" action="deactivate">
+    <input type="submit" value="Deactivate" />
+</form>
+<ul>
+    <li><a href="../">Back</a></li>
+</ul>
+</body>
+</html>

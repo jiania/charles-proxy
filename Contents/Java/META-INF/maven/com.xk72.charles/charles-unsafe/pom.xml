@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>charles-unsafe</artifactId>
+	<name>charles-unsafe</name>
+	<packaging>jar</packaging>
+	<url>http://www.charlesproxy.com/</url>
+	<description>This project contains unsafe pieces of code that may be required in the application, but which require more lenient code style settings.</description>
+
+	<parent>
+		<groupId>com.xk72.charles</groupId>
+		<artifactId>charles-parent</artifactId>
+		<version>1.0-SNAPSHOT</version>
+		<relativePath>../../parent/pom.xml</relativePath>
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.xk72.charles</groupId>
+			<artifactId>charles-core</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
+	
+</project>
