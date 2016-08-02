@@ -12,7 +12,11 @@ HTTP 2 is all around you. It’s sneaky and you might not have noticed. Both the
 
 IPv6 is also all around you! If you’re lucky enough to have an IPv6 network and ISP you can turn on “Prefer IPv6 addresses when connecting to dual-stack hosts” on the Options tab in the Proxy Settings. Then you’ll see IPv6 addresses being used in Charles. Feel the modern IP networking (first published in 1998) flow through you!
 
+###quick cracked###
 
+download Contents/Java/charles.jar and replace you computer same folders
+
+#################
 1.cd /Applications/Charles.app/Contents/Java/
 
 2.unzip charles.jar
